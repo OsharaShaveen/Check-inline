@@ -1,6 +1,6 @@
 import os
 import telebot
-from driver.queues import QUEUE
+from queues import QUEUE
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 
